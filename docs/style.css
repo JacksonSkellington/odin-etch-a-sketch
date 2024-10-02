@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+.grid-unit {
+    flex: 1;
+    min-width: 30px;
+    aspect-ratio: 1/1;
+    background-color: red;
+}
